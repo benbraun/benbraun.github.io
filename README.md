@@ -1,4 +1,3 @@
-benbraun.github.io
-==================
+# Benjamin Braun
 
-Personal Website
+personal website, work in progress

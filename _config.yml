@@ -1,59 +1,21 @@
+# Site wide configuration
+
 title:            Benjamin Braun
-description:      Describe your website.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-#url:              http://localhost:4000
+locale:           en_US
 url:              http://www.benbraun.net
-disqus_shortname: benbraun
+#url:              http://localhost:4000
 
-# Owner/author information
-owner:
-  name:           Benjamin Braun
-  avatar:         bio-photo.jpg
-  bio:            "Computer Science Graduate Student at UCSD"
-  email:          
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
-  facebook:       benbraunster
-  github:         benbraun
-  stackoverflow:
-  linkedin:       benbraun1
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:      BenjaminBraun2
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Jekyll configuration
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Posts
-    url: /posts/
-#  - title: Theme Setup
-#    url: /theme-setup/
-#  - title: Made Mistakes
-#    url: http://mademistakes.com
-#    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-future:      true
-highlighter: pygments
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
@@ -62,12 +24,33 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+
+# Site owner
+owner:
+  name: Benjamin Braun
+  avatar: bio-photo.jpg
+  bio: "Computer Science Graduate Student at UCSD"
+  email: mailhide
+  disqus-shortname: benbraun
+  twitter: #username
+  facebook: benbraunster
+  google:
+    plus: BenjaminBraun2
+    analytics: UA-55663110-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: benbraun
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: benbraun1
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

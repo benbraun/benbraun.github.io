@@ -1,0 +1,9 @@
+# Site navigation links
+- title: home
+  url: /
+
+- title: research
+  url: /research/
+
+- title: blog
+  url: /posts/
