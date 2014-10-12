@@ -1,7 +1,7 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Personal website of Benjamin Braun, computer science graduate student at UCSD"
+tags: [Benjamin, Braun, UCSD, computer, science, programming, graduate, grad, student, M.S.]
 image:
   feature: texture-feature-01.jpg
   credit: Texture Lovers

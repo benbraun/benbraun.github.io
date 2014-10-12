@@ -1,21 +1,22 @@
 title:            Benjamin Braun
 description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
+#url:              http://localhost:4000
 url:              http://www.benbraun.net
-disqus_shortname:
+disqus_shortname: benbraun
 
 # Owner/author information
 owner:
   name:           Benjamin Braun
   avatar:         bio-photo.jpg
-  bio:            "Computer Science Master's Student at TU München"
+  bio:            "Computer Science Graduate Student at UCSD"
   email:          
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:       benbraunster
   github:         benbraun
   stackoverflow:
-  linkedin:
+  linkedin:       benbraun1
   instagram:
   lastfm:
   tumblr:
@@ -46,7 +47,7 @@ links:
 #    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Berlin
+timezone:    America/Los_Angeles
 future:      true
 highlighter: pygments
 markdown:    kramdown
